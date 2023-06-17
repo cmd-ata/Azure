@@ -5,16 +5,7 @@ $ruleName = "ENTER_RULE_NAME"
 $rulePriority = <rule-priority>
 
 # Define list of allowed locations
-$allowedLocations = @(
-    "FI"
-    "AX"
-    "SE"
-    "NO"
-    "DK"
-    "EE"
-    "IE"
-    "NL"
-)
+$allowedLocations = @() # Enter location by country/region codes as "value".
 
 # Enable geo-filtering and allow specific locations
 $geoMatchCondition = New-AzApplicationGatewayFirewallCustomRuleMatchVariable -VariableName "ClientGeoMatch"
