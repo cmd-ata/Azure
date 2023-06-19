@@ -1,9 +1,9 @@
 # Set the required parameters
-$rg_name = "rg-waf-demo"
-$policyName = "waf-demo-001"
+$rg_name = ""
+$policyName = ""
 $csvPath = "./IPAddresses.csv"
-$ruleName = "newage"
-$rulePriority = 51 # set the priority
+$ruleName = ""
+$rulePriority = 100 # set the priority
 
 # This block of code is created to inform the user about certain limitations.
 Write-Host "╔════════════════════════════════════════════════════════════╗"
